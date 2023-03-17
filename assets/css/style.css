@@ -20,4 +20,41 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     color: var(--color-heading);
+    font-weight: 700;
+}
+
+a {
+    color: var(--color-body);
+    text-decoration: none;
+    transition: all 0.4s ease;
+}
+
+a:hover {
+    color: var(--color-brand);
+}
+
+img {
+    width: 100%;
+}
+
+/*NAVBAR*/
+
+.navbar .nav-link {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.navbar .nav-link:hover {
+    color: var(--color-brand);
+}
+
+@media (min-width: 992px) {
+    .navbar {
+        min-height: 100vh;
+        width: var(--sidbar-width);
+        background: linear-gradient(rgba(3,63,71,0.9), rgba(3,63,71,0.753)), url(../images/sidebar-img.jpg);
+        background-size: cover;
+        background-position: center;
+    }
 }
