@@ -53,8 +53,12 @@ img {
     .navbar {
         min-height: 100vh;
         width: var(--sidbar-width);
-        background: linear-gradient(rgba(3,63,71,0.9), rgba(3,63,71,0.753)), url(../images/sidebar-img.jpg);
+        background: linear-gradient(rgba(3,63,71,0.75), rgba(3,63,71,0.75)), url(../images/sidebar-img.jpg);
         background-size: cover;
         background-position: center;
+    }
+
+    .navbar-brand img {
+        border: 8px solid var(--color-brand);
     }
 }
